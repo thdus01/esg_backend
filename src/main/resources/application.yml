@@ -15,7 +15,7 @@ spring:
 
   datasource:
     driver-class-name : com.mysql.cj.jdbc.Driver
-    url : jdbc:mysql://localhost:3306/esg?characterEncoding=utf8
+    url : jdbc:mysql://http://ec2-43-201-13-121.ap-northeast-2.compute.amazonaws.com:3306/esg?characterEncoding=utf8
     username : esg_user
     password : esg
 
