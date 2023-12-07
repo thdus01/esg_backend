@@ -1,0 +1,25 @@
+server:
+  port: 81
+  servlet:
+    encoding:
+      charset: UTF-8
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case : true
+
+spring:
+  output:
+    ansi:
+      enabled : always
+
+  datasource:
+    driver-class-name : com.mysql.cj.jdbc.Driver
+    url : jdbc:mysql://localhost:3306/esg?characterEncoding=utf8
+    username : esg_user
+    password : esg
+
+  logging:
+    config: classpath:logback-spring.xml
+
+
